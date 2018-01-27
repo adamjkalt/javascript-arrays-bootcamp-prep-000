@@ -22,10 +22,10 @@ function accessElementInArray(array5, index){
   return(array5[2])
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(element){
-  return element.shift()
+function destructivelyRemoveElementFromBeginningOfArray(array6){
+  array6.shift(element)
 }
 
-function destructivelyRemoveElementFromEndOfArray(element){
+function destructivelyRemoveElementFromEndOfArray(){
   return element.pop()
 }
