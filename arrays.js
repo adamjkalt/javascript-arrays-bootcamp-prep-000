@@ -26,8 +26,3 @@ function destructivelyRemoveElementFromBeginningOfArray(array6, element){
   array6.shift(element)
   return array6
 }
-
-function destructivelyRemoveElementFromEndOfArray(array7, element){
-  array7.push(element)
-  return array7
-}
